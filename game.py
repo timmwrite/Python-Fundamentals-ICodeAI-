@@ -23,7 +23,7 @@ class Organism:
 
 #Create a new store -> 2D-Array 
     def new_array(self, my_array):
-        self.new_array = [[0 for a in range(self.col)] for b in range(self.row)]
+        self.new_array = [[4 for a in range(self.col)] for b in range(self.row)]
         return self.new_array
 
 #Creating a new Organism
